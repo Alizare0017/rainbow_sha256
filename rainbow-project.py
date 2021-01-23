@@ -22,6 +22,5 @@ def hash_finder():
                 r = combo[i]
                 final =  r + " => " + i + "\n"
                 g.write(final)
-                print(final)
     g.close()
 hash_finder()
